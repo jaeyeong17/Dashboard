@@ -25,7 +25,7 @@ ESP8266WebServer    webServer(80);
 char                eRead[30];
 char                ssid[30] = "iptime";
 char                password[30] = "jhs2031%";  
-char                influxdb[90] = "http://52.7.186.144:8086/write?db=mydb";
+char                influxdb[90] = "http://52.7.186.144:8086/write?db=mydb"; //influxdb 
 
 String responseHTML = ""
     "<!DOCTYPE html><html><head><title>CaptivePortal</title></head><body><center>"
